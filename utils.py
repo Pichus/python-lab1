@@ -74,7 +74,7 @@ def print_row(row):
     row_str_list = []
 
     for col in row:
-        row_str_list.append(f"{col:10}")
+        row_str_list.append(f"{col:20}")
 
     row_str = " ".join(row_str_list)
     print(row_str)
